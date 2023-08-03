@@ -1,0 +1,1 @@
+select d.department,count(*) from students as s natural join department as d; group by s.department;
